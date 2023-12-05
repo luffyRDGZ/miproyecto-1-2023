@@ -125,3 +125,177 @@ h1{
     opacity: 50%;
     cursor: pointer;
 }
+*{
+    padding: 0;
+    margin: 0;
+ }
+ #CabeceraContenido{
+     background-color: #67999A;
+     width: 100%;
+     display: flex;
+     border:1px solid black ;
+ }
+ #CuerpoContenido{
+     width: 100%;
+     background-color: #D3EE9F;
+     display: flex;
+     padding-top: 50px;
+ 
+ }
+ footer{
+     width: 100%;
+   
+     top: 10px;
+     background-color: #7B9E35;
+ }
+ #cabeceraImagenNombre{
+     flex: 30%;
+ }
+ #CabeceraMenu{
+     flex: 70%;
+     margin: 15px 20px 0 0;
+     text-align: right;
+     
+ }
+ ul li{
+     text-decoration: none;
+     display: inline;
+     border-right: solid 2px #550101;
+ }
+ ul li a{
+     color: #550101;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold;
+     padding: 5px;
+ }
+ ul li a:hover{
+     color: white;
+     text-decoration: underline;
+ }
+ #ImagenNombreRedondo{
+     width: 150px;   
+     height: 150px;
+     position: relative;
+     z-index: 1000;
+     left: 5%;
+     background-image: url("../imagenes/Recurso\ 7.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: white;
+     border-radius: 75px;
+ }
+ #nombreRectangulo{
+     background-color: #013334;
+     width: 10%;
+     padding: 20px;
+     color: white;
+     font-size: 25pxs;
+     text-transform: uppercase;
+     font-weight: bold;
+     position: absolute;
+     top: 14%;
+ }
+ #LogoInicio{
+     background-image: url("../imagenes/Recurso\ 7.png");
+     padding: 2px 0 0 18px;
+     background-size: 18px;
+     background-repeat: no-repeat;
+ }
+ #CuerpoImagen{
+     flex: 40%;
+ }
+ #CuerpoDetalle{
+     flex: 60%;
+ }
+ #BordeImagen{
+     background-color: #d46b68;
+     padding: 20px;
+     text-align: center;
+     border-radius: 10px;
+     width: 65%;
+     margin: auto;
+ }
+ img{
+     border-radius: 10px;
+ }
+ h1{
+     text-align: center;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+ #DatosDetalle{
+     text-align: justify;
+     padding: 40px;
+ }
+ #Botones{
+     display: flex;
+     padding: 30PX;
+ }
+ #BotonFavorito{
+     flex: 50%;
+ }
+ #BotonUbicacion{
+     flex: 50%;
+ }
+ #MarcoFavorito{
+     background-image: url("../imagenes/Recurso\ 13.png");
+ }
+ .DisenoBoton{
+     width: 250px;
+     background-color: #cccccc;
+     border-radius: 20px;
+     background-size: 28px;
+     background-repeat: no-repeat;
+     padding: 20px 20px 20px 40px;
+     background-position: left 5px center;
+ }
+ #MarcoUbicacion{
+     background-image: url("../imagenes/Recurso\ 2.png");
+ }
+ .DisenoBoton:hover{
+     opacity: 50%;
+     cursor: pointer;
+ }
+ ul li:last-child{
+     border-right: none;
+ }
+ #MenuFooter{
+     flex: 20%;
+ }
+ #ContenidoFooter{
+     flex: 40%;
+     text-align: justify;
+     color: white;
+ }
+ #SocialFooter{
+     flex: 40%;
+     text-align: center;
+ }
+ nav a{
+     display: block;
+     padding: 10px;
+     text-decoration:none ;
+     font-weight: bold;
+     color: white;
+ }
+ nav a:hover{
+     color: #550101;
+     font-size: 15px;
+ }
+ .SocialesFooter li{
+     border: none;
+ }
+ li img{
+     width: 5%;
+     padding: 10px;
+ }
+ li img:hover{
+     opacity: 60%;
+     cursor: pointer;
+     width: 6% ;
+ }
+ #marcofooter{
+   padding: 50px;
+   display: flex;
+ }

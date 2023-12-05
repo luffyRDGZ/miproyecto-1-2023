@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacteme.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,48 +26,35 @@
             </div>
             
     </div>
-    <!--Aqui colocamos el cuerpo del index-->
+    <!--Aqui colocamos el div del menu cabecera-->
+    <div id="CabeceraContenido"> 
+    </div>
+    <!--Aqui colocaremos el cuerpo del index-->
     <div id="CuerpoContenido">
-        <div id="CuerpoImagen">
-            <div id="BordeImagen">
-                <img src="/imagenes/6.1.png" height="400" width="480">
-            </div>
+        <div id="FormularioDatos">
+            <fieldset>
+                <legend>Mis Datos</legend>
+                <form>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Ingresa su Nombre">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Ingresa su Apellido">
+                    <label>Edad</label>
+                    <input type="number" placeholder="Ingresa su Edad">
+                    <select>
+                        <option value="Cbba">Cochabamba</option>
+                        <option value="Lpz">La Paz</option>
+                        <option value="Scz">Santa Cruz</option>
+                        <option value="Pts">Potosi</option>
+                        <option value="Sr">Sucre</option>
+                    </select>
+                    <label> Descripcion</label>
+                    <textarea></textarea>
+                    <input type="button" value="Insertar">
+                </form>
+            </fieldset>
         </div>
-        <div id="CuerpoDetalle">
-            <h1>Bienvenidos</h1>
-            <div id="DatosDetalle">
-                <p>¡Hola y bienvenido a nuestra comunidad en línea! Es un placer darte la bienvenida a este espacio digital lleno de oportunidades para aprender, compartir y conectarte. Aquí,
-
-                    no solo encontrarás información, sino también una vibrante comunidad que comparte tus intereses.
-
-                    Navegar por nuestra web es como abrir la puerta a un universo de posibilidades. Desde artículos informativos hasta experiencias interactivas, estamos aquí para brindarte
-                    
-                    una experiencia enriquecedora. Explora con curiosidad y sumérgete en las distintas secciones que hemos preparado para ti.
-                    
-                    Nos esforzamos por ser más que una simple página web; aspiramos a ser un punto de encuentro donde las ideas fluyen, las conversaciones se desarrollan y las conexiones se fortalecen.
-                    
-                    Siéntete libre de participar, comentar y compartir tus pensamientos. Después de todo, esta web es un espacio para ti.
-                    
-                    A medida que te aventuras a través de nuestras páginas, recuerda que estamos aquí para satisfacer tu sed de conocimiento y entretenimiento.
-                    
-                    ¡Esperamos que disfrutes del viaje y encuentres exactamente lo que estás buscando!
-                    
-                    Gracias por unirte a nosotros. ¡Bienvenido a nuestra comunidad en línea!</p>
-            </div>
-            <div id="Botones">
-                <div id="BotonFavorito">
-                    <div id="MarcoFavorito" class="DisenoBoton">
-                        Persona favorita
-                    </div>
-                </div>
-                <div id="BotonUbicacion">
-                    <div id="MarcoUbicacion" class="DisenoBoton">
-                        MiUbicacion
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>  
+    </div>        
     <!--Aqui colocaremos el pie de la web-->
     <footer>
         <div id="marcofooter">
@@ -97,4 +85,4 @@
     </div>
     </footer>
 </body>
-</html>
+        
